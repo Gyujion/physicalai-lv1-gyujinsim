@@ -221,10 +221,10 @@ average rate: 10.000
 ```
 
 ### **3.4 구독자 2개 동시 수신 확인(양쪽 로그)**
-<img src="./ros2_ws/src/images/compatible_log.png"/>
+<img src="./images/compatible_log.png"/>
 
 ### **3.5. 정사각형 주행 캡처**
-<img src="./ros2_ws/src/images/turtle_square.png"/>
+<img src="./images/turtle_square.png"/>
 
 ### **3.6. 정상 종료 화면**
 ```
@@ -275,7 +275,7 @@ pa29@pa29-Legion-Pro-5-16IAX10:~/ros2_ws$ ros2 run turtle_cpp sub --ros-args -p 
 ## **문제 10. 시각화·기록·테스트로 검증하기**
 ### **문제 10.1. rqt_graph 캡처, 데이터 미수신 진단 절차**
 <캡쳐>
-<img src="./ros2_ws/src/images/rqt_graph.png" />
+<img src="./images/rqt_graph.png" />
 
 1. 노드 생존 여부 확인
 ```
@@ -300,7 +300,7 @@ echo $ROS_DOMAIN_ID
 ```
 
 ### **문제 10.2. RViz2 TF + 경유점 마커 캡처**
-<img src="./ros2_ws/src/images/Marker.png" />
+<img src="./images/Marker.png" />
 
 ### **문제 10.3. ros2 bag play 재생 중 구독자 로그**
 ```
