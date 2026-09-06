@@ -18,7 +18,7 @@ turtle_distance_publisher:
 
 turtle_distance_subscriber:
   ros__parameters:
-    warn_distance: 2.5        # [m] 원점 거리가 이 값을 넘으면 WARN 로그. 실험: 0.8
+    warn_distance: 2.5      # [m] 원점 거리가 이 값을 넘으면 WARN 로그. 실험: 0.8
 
 polygon_action_server:
   ros__parameters:

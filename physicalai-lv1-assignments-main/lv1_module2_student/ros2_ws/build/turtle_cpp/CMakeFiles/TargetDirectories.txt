@@ -1,0 +1,12 @@
+/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_cpp/CMakeFiles/uninstall.dir
+/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_cpp/CMakeFiles/turtle_cpp_uninstall.dir
+/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_cpp/CMakeFiles/pub.dir
+/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_cpp/CMakeFiles/sub.dir
+/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_cpp/CMakeFiles/square.dir
+/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_cpp/CMakeFiles/test.dir
+/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_cpp/CMakeFiles/edit_cache.dir
+/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_cpp/CMakeFiles/rebuild_cache.dir
+/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_cpp/CMakeFiles/list_install_components.dir
+/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_cpp/CMakeFiles/install.dir
+/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_cpp/CMakeFiles/install/local.dir
+/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_cpp/CMakeFiles/install/strip.dir

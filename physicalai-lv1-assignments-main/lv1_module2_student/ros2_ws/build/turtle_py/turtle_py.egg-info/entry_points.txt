@@ -1,0 +1,6 @@
+[console_scripts]
+pub = turtle_py.distance_publisher:main
+square = turtle_py.square_move:main
+sub = turtle_py.distance_subscriber:main
+tf = turtle_py.turtle_tf:main
+

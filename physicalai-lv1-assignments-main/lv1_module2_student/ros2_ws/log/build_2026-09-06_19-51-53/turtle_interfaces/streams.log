@@ -1,0 +1,299 @@
+[0.015s] Invoking command in '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/src/turtle_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.107s] -- The CXX compiler identification is GNU 11.4.0
+[0.113s] -- Detecting C compiler ABI info
+[0.174s] -- Detecting C compiler ABI info - done
+[0.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.180s] -- Detecting C compile features
+[0.180s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.267s] -- Detecting CXX compiler ABI info - done
+[0.273s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.273s] -- Detecting CXX compile features
+[0.273s] -- Detecting CXX compile features - done
+[0.276s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.398s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.449s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.473s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.475s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.481s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.514s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.546s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.567s] -- Found action_msgs: 1.2.3 (/opt/ros/humble/share/action_msgs/cmake)
+[0.821s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.014s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.269s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.289s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.290s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.314s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.314s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.314s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.314s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.332s] -- Found PythonExtra: .so  
+[1.447s] -- Configuring done
+[1.487s] -- Generating done
+[1.500s] -- Build files have been written to: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_interfaces
+[1.510s] Invoked command in '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/src/turtle_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces
+[1.512s] Invoking command in '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_interfaces -- -j16 -l16
+[1.557s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.568s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.569s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.583s] [  5%] Built target ament_cmake_python_symlink_turtle_interfaces
+[1.846s] running egg_info
+[1.847s] creating turtle_interfaces.egg-info
+[1.847s] writing turtle_interfaces.egg-info/PKG-INFO
+[1.847s] writing dependency_links to turtle_interfaces.egg-info/dependency_links.txt
+[1.848s] writing top-level names to turtle_interfaces.egg-info/top_level.txt
+[1.848s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[1.850s] reading manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[1.851s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[1.889s] [  5%] Built target ament_cmake_python_build_turtle_interfaces_egg
+[2.152s] [  5%] Built target turtle_interfaces__rs
+[2.370s] [ 10%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/action/detail/draw_polygon__functions.c.o[0m
+[2.371s] [ 10%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/set_gain__functions.c.o[0m
+[2.371s] [ 10%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/waypoint__functions.c.o[0m
+[2.373s] [ 12%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/waypoint_list__functions.c.o[0m
+[2.401s] [ 12%] Built target turtle_interfaces__cpp
+[2.413s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.413s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.413s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.482s] [ 19%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_generator_c.so[0m
+[2.520s] [ 19%] Built target turtle_interfaces__rosidl_generator_c
+[2.531s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.533s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.533s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.000s] [ 30%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/waypoint__type_support.cpp.o[0m
+[3.001s] [ 30%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/srv/set_gain__type_support.cpp.o[0m
+[3.001s] [ 30%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/waypoint_list__type_support.cpp.o[0m
+[3.001s] [ 32%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/action/draw_polygon__type_support.cpp.o[0m
+[3.074s] [ 37%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/waypoint_list__type_support.cpp.o[0m
+[3.075s] [ 37%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/waypoint__type_support.cpp.o[0m
+[3.075s] [ 39%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/action/detail/draw_polygon__type_support.cpp.o[0m
+[3.075s] [ 39%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_gain__type_support.cpp.o[0m
+[3.212s] [ 41%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/waypoint__type_support.cpp.o[0m
+[3.223s] [ 42%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/waypoint_list__type_support.cpp.o[0m
+[3.232s] [ 44%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/srv/set_gain__type_support.cpp.o[0m
+[3.235s] [ 46%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/action/draw_polygon__type_support.cpp.o[0m
+[3.271s] [ 48%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/dds_fastrtps/set_gain__type_support.cpp.o[0m
+[3.274s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/waypoint__type_support.cpp.o[0m
+[3.275s] [ 51%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/waypoint_list__type_support.cpp.o[0m
+[3.287s] [ 53%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/action/detail/dds_fastrtps/draw_polygon__type_support.cpp.o[0m
+[3.382s] [ 55%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_c.so[0m
+[3.477s] [ 55%] Built target turtle_interfaces__rosidl_typesupport_c
+[3.685s] [ 57%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_cpp.so[0m
+[3.730s] [ 58%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/waypoint__type_support.c.o[0m
+[3.732s] [ 60%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/set_gain__type_support.c.o[0m
+[3.734s] [ 62%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/action/detail/draw_polygon__type_support.c.o[0m
+[3.735s] [ 64%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/waypoint_list__type_support.c.o[0m
+[3.768s] [ 66%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/waypoint__type_support_c.cpp.o[0m
+[3.769s] [ 66%] Built target turtle_interfaces__rosidl_typesupport_cpp
+[3.769s] [ 67%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/waypoint_list__type_support_c.cpp.o[0m
+[3.773s] [ 69%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/srv/detail/set_gain__type_support_c.cpp.o[0m
+[3.774s] [ 71%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/action/detail/draw_polygon__type_support_c.cpp.o[0m
+[3.815s] [ 73%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.863s] [ 73%] Built target turtle_interfaces__rosidl_typesupport_introspection_c
+[3.880s] [ 75%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.978s] [ 75%] Built target turtle_interfaces__rosidl_typesupport_introspection_cpp
+[3.996s] [ 76%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.091s] [ 76%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.160s] [ 78%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.230s] [ 78%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c
+[4.249s] [ 78%] Built target turtle_interfaces
+[4.269s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.530s] [ 80%] Built target turtle_interfaces__py
+[5.550s] [ 87%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/msg/_waypoint_list_s.c.o[0m
+[5.550s] [ 87%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/action/_draw_polygon_s.c.o[0m
+[5.550s] [ 87%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/msg/_waypoint_s.c.o[0m
+[5.550s] [ 87%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/srv/_set_gain_s.c.o[0m
+[5.666s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so[0m
+[5.707s] [ 89%] Built target turtle_interfaces__rosidl_generator_py
+[5.726s] [ 94%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.727s] [ 94%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.727s] [ 94%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.838s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.838s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.838s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.878s] [100%] Built target turtle_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.879s] [100%] Built target turtle_interfaces__rosidl_typesupport_c__pyext
+[5.879s] [100%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.890s] Invoked command in '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_interfaces -- -j16 -l16
+[5.900s] Invoking command in '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_interfaces
+[5.907s] -- Install configuration: ""
+[5.907s] -- Execute custom install script
+[5.908s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_interfaces
+[5.917s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/draw_polygon__functions.h
+[5.926s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/draw_polygon__struct.h
+[5.935s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/draw_polygon__type_support.h
+[5.945s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/draw_polygon.h
+[5.955s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint__functions.h
+[5.964s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint__struct.h
+[5.973s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint__type_support.h
+[5.981s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint_list__functions.h
+[5.990s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint_list__struct.h
+[5.998s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint_list__type_support.h
+[6.007s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.015s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/waypoint.h
+[6.025s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/waypoint_list.h
+[6.034s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_gain__functions.h
+[6.043s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_gain__struct.h
+[6.052s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_gain__type_support.h
+[6.060s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_gain.h
+[6.069s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.sh
+[6.077s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.dsv
+[6.086s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/draw_polygon__rosidl_typesupport_fastrtps_c.h
+[6.094s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint__rosidl_typesupport_fastrtps_c.h
+[6.102s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint_list__rosidl_typesupport_fastrtps_c.h
+[6.110s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.118s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_gain__rosidl_typesupport_fastrtps_c.h
+[6.127s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/draw_polygon__rosidl_typesupport_introspection_c.h
+[6.136s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint__rosidl_typesupport_introspection_c.h
+[6.145s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint_list__rosidl_typesupport_introspection_c.h
+[6.153s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.161s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_gain__rosidl_typesupport_introspection_c.h
+[6.170s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/draw_polygon__builder.hpp
+[6.178s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/draw_polygon__struct.hpp
+[6.187s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/draw_polygon__traits.hpp
+[6.195s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/draw_polygon__type_support.hpp
+[6.204s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/draw_polygon.hpp
+[6.212s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint__builder.hpp
+[6.222s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint__struct.hpp
+[6.232s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint__traits.hpp
+[6.241s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint__type_support.hpp
+[6.250s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint_list__builder.hpp
+[6.259s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint_list__struct.hpp
+[6.268s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint_list__traits.hpp
+[6.279s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint_list__type_support.hpp
+[6.289s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.300s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/waypoint.hpp
+[6.310s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/waypoint_list.hpp
+[6.320s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_gain__builder.hpp
+[6.331s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_gain__struct.hpp
+[6.342s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_gain__traits.hpp
+[6.353s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_gain__type_support.hpp
+[6.363s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_gain.hpp
+[6.372s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/draw_polygon__rosidl_typesupport_fastrtps_cpp.hpp
+[6.381s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[6.389s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint_list__rosidl_typesupport_fastrtps_cpp.hpp
+[6.397s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.405s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_gain__rosidl_typesupport_fastrtps_cpp.hpp
+[6.414s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/action/detail/draw_polygon__rosidl_typesupport_introspection_cpp.hpp
+[6.423s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp
+[6.431s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/waypoint_list__rosidl_typesupport_introspection_cpp.hpp
+[6.440s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_gain__rosidl_typesupport_introspection_cpp.hpp
+[6.448s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.sh
+[6.456s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.dsv
+[6.465s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[6.473s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[6.481s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[6.488s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[6.497s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py
+[6.505s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c
+[6.513s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.521s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.530s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/__init__.py
+[6.538s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/_draw_polygon.py
+[6.547s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/_draw_polygon_s.c
+[6.556s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so
+[6.564s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/__init__.py
+[6.572s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_waypoint.py
+[6.580s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_waypoint_list.py
+[6.588s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_waypoint_list_s.c
+[6.596s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_waypoint_s.c
+[6.605s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py
+[6.613s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_gain.py
+[6.622s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_gain_s.c
+[6.631s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.642s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.653s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.664s] -- Up-to-date symlink: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.665s] -- Up-to-date symlink: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.665s] -- Up-to-date symlink: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.665s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/ament_index/resource_index/rust_packages/turtle_interfaces
+[6.677s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/Cargo.toml
+[6.688s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/build.rs
+[6.700s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/action.rs
+[6.711s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/action/rmw.rs
+[6.722s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/lib.rs
+[6.734s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/msg.rs
+[6.746s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/msg/rmw.rs
+[6.757s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/srv.rs
+[6.767s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/srv/rmw.rs
+[6.777s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/msg/Waypoint.idl
+[6.786s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/msg/WaypointList.idl
+[6.796s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetGain.idl
+[6.805s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/action/DrawPolygon.idl
+[6.814s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/msg/Waypoint.msg
+[6.823s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/msg/WaypointList.msg
+[6.831s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetGain.srv
+[6.840s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetGain_Request.msg
+[6.849s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetGain_Response.msg
+[6.858s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/action/DrawPolygon.action
+[6.867s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_interfaces
+[6.876s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_interfaces
+[6.890s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.sh
+[6.899s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.dsv
+[6.910s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.sh
+[6.921s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.dsv
+[6.931s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.bash
+[6.943s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.sh
+[6.952s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.zsh
+[6.960s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.dsv
+[6.968s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv
+[6.977s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/ament_index/resource_index/packages/turtle_interfaces
+[6.986s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.994s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.003s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.011s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.020s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.029s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.038s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.046s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[7.055s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig.cmake
+[7.063s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig-version.cmake
+[7.071s] -- Symlinking: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.xml
+[7.080s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so
+[7.080s] -- Set runtime path of "/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so" to ""
+[7.080s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.081s] -- Set runtime path of "/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.081s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so
+[7.081s] -- Set runtime path of "/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.081s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so
+[7.081s] -- Set runtime path of "/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so" to ""
+[7.082s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.082s] -- Set runtime path of "/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.082s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.083s] -- Set runtime path of "/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.083s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so
+[7.083s] -- Set runtime path of "/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.118s] Listing '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces'...
+[7.118s] Compiling '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py'...
+[7.118s] Listing '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action'...
+[7.118s] Compiling '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/__init__.py'...
+[7.118s] Compiling '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/action/_draw_polygon.py'...
+[7.118s] Listing '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg'...
+[7.119s] Compiling '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/__init__.py'...
+[7.119s] Compiling '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_waypoint.py'...
+[7.119s] Compiling '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_waypoint_list.py'...
+[7.119s] Listing '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv'...
+[7.119s] Compiling '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py'...
+[7.119s] Compiling '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_set_gain.py'...
+[7.124s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so
+[7.124s] -- Set runtime path of "/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so" to ""
+[7.124s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport.cmake
+[7.124s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.124s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.125s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.125s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.125s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.125s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport.cmake
+[7.125s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.125s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cppExport.cmake
+[7.125s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.126s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.126s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.126s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.126s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport.cmake
+[7.126s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.126s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport.cmake
+[7.127s] -- Installing: /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.129s] Invoked command in '/home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_interfaces

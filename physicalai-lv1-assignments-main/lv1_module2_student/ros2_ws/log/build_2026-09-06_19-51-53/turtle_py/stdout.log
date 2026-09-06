@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating turtle_py.egg-info
+writing turtle_py.egg-info/PKG-INFO
+writing dependency_links to turtle_py.egg-info/dependency_links.txt
+writing entry points to turtle_py.egg-info/entry_points.txt
+writing requirements to turtle_py.egg-info/requires.txt
+writing top-level names to turtle_py.egg-info/top_level.txt
+writing manifest file 'turtle_py.egg-info/SOURCES.txt'
+reading manifest file 'turtle_py.egg-info/SOURCES.txt'
+writing manifest file 'turtle_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_py/lib/python3.10/site-packages/turtle-py.egg-link (link to .)
+Installing pub script to /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_py/lib/turtle_py
+Installing square script to /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_py/lib/turtle_py
+Installing sub script to /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_py/lib/turtle_py
+Installing tf script to /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_py/lib/turtle_py
+
+Installed /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_py
+running symlink_data
+creating /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_py/share/ament_index
+creating /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_py/share/ament_index/resource_index
+creating /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_py/share/ament_index/resource_index/packages
+symbolically linking /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_py/resource/turtle_py -> /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_py/share/ament_index/resource_index/packages
+symbolically linking /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_py/package.xml -> /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_py/share/turtle_py

@@ -1,0 +1,11 @@
+[console_scripts]
+ex03_distance_publisher = turtle_examples.ex03_distance_publisher:main
+ex03_distance_subscriber = turtle_examples.ex03_distance_subscriber:main
+ex05_builtin_service_client = turtle_examples.ex05_builtin_service_client:main
+ex05_rotate_absolute_client = turtle_examples.ex05_rotate_absolute_client:main
+ex05_toggle_servers = turtle_examples.ex05_toggle_servers:main
+ex06_polygon_action_server = turtle_examples.ex06_polygon_action_server:main
+ex06_waypoint_publisher = turtle_examples.ex06_waypoint_publisher:main
+ex07_qos_sensor_publisher = turtle_examples.ex07_qos_sensor_publisher:main
+ex07_qos_subscriber = turtle_examples.ex07_qos_subscriber:main
+

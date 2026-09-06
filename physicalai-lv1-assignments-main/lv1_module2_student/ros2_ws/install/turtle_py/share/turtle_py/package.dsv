@@ -1,0 +1,9 @@
+source;share/turtle_py/hook/pythonpath.ps1
+source;share/turtle_py/hook/pythonpath.dsv
+source;share/turtle_py/hook/pythonpath.sh
+source;share/turtle_py/hook/ament_prefix_path.ps1
+source;share/turtle_py/hook/ament_prefix_path.dsv
+source;share/turtle_py/hook/ament_prefix_path.sh
+source;../../build/turtle_py/share/turtle_py/hook/pythonpath_develop.ps1
+source;../../build/turtle_py/share/turtle_py/hook/pythonpath_develop.dsv
+source;../../build/turtle_py/share/turtle_py/hook/pythonpath_develop.sh

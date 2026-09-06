@@ -31,14 +31,14 @@ class TurtleTfAndMarkerNode(Node):
         # -----------------------------------------------------------
         # 1. publish_rate 파라미터 선언 및 예외 검사 (0 이하 방어)
         # -----------------------------------------------------------
-        self.declare_parameter('publish_rate', 1.0)
+        self.declare_parameter('publish_rate', 10.0)
         input_rate = self.get_parameter('publish_rate').value
 
         if input_rate <= 0.0:
             self.get_logger().warn(
                 f'잘못된 publish_rate({input_rate})가 입력되었습니다! 기본값 1.0Hz를 적용합니다.'
             )
-            self.publish_rate = 1.0
+            self.publish_rate = 10.0
         else:
             self.publish_rate = float(input_rate)
 

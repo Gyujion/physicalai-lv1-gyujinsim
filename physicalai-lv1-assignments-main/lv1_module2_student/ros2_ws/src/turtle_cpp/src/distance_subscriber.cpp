@@ -7,7 +7,7 @@ class DistanceSubsriber : public rclcpp::Node
   public:
     DistanceSubsriber() : Node("distance_subscriber")
     {
-        this->declare_parameter("warn_distance", 3.0);
+        this->declare_parameter("warn_distance", 2.5);
 
         subscription_ = this->create_subscription<std_msgs::msg::Float32>(
             "turtle_distance", 10, std::bind(&DistanceSubsriber::distance_callback, this, std::placeholders::_1));

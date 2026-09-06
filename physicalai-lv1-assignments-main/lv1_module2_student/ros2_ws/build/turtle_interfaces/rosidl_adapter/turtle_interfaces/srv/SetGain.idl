@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtle_interfaces/srv/SetGain.srv
+// generated code does not contain a copyright notice
+
+
+module turtle_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "문제 6 — 회전 제어 게인 설정 서비스." "\n"
+      "서비스 파일은 \"---\" 로 요청(request)과 응답(response)을 나눕니다.")
+    struct SetGain_Request {
+      @verbatim (language="comment", text=
+        "---------- 요청 ----------" "\n"
+        "비례 게인")
+      double kp;
+
+      @verbatim (language="comment", text=
+        "적분 게인")
+      double ki;
+
+      @verbatim (language="comment", text=
+        "미분 게인")
+      double kd;
+    };
+    @verbatim (language="comment", text=
+      "---------- 응답 ----------")
+    struct SetGain_Response {
+      @verbatim (language="comment", text=
+        "값이 유효해서 적용됐는지")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "사람이 읽을 결과 설명 (예: \"kp must be >= 0\")")
+      string message;
+    };
+  };
+};

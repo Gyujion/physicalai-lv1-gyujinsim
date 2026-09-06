@@ -8,7 +8,7 @@ class DistanceSubscriber(Node):
     def __init__(self):
         super().__init__('distance_subscriber')
 
-        self.declare_parameter('warn_distance', 3.0)
+        self.declare_parameter('warn_distance', 2.5)
 
         self.subscription = self.create_subscription(
             Float32,

@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from turtle_interfaces/action/DrawPolygon.action
+// generated code does not contain a copyright notice
+
+
+module turtle_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "문제 6 — 거북이가 정다각형을 그리게 하는 액션." "\n"
+      "액션 파일은 \"---\" 두 개로 목표(goal) / 결과(result) / 피드백(feedback) 세 구역을 나눕니다." "\n"
+      "순서가 goal → result → feedback 임에 주의하세요 (goal → feedback → result 가 아닙니다).")
+    struct DrawPolygon_Goal {
+      @verbatim (language="comment", text=
+        "---------- 목표 (goal) ----------" "\n"
+        "변의 개수 (3 이상)")
+      int32 sides;
+
+      @verbatim (language="comment", text=
+        "한 변의 길이")
+      @unit (value="m")
+      double side_length;
+    };
+    @verbatim (language="comment", text=
+      "---------- 결과 (result) ----------")
+    struct DrawPolygon_Result {
+      @verbatim (language="comment", text=
+        "실제로 이동한 총 거리 (취소되면 그때까지의 거리)")
+      @unit (value="m")
+      double total_distance;
+    };
+    @verbatim (language="comment", text=
+      "---------- 피드백 (feedback) ----------")
+    struct DrawPolygon_Feedback {
+      @verbatim (language="comment", text=
+        "지금까지 완성한 변의 수")
+      int32 completed_sides;
+
+      @verbatim (language="comment", text=
+        "진행률 0.0 ~ 1.0 (= completed_sides / sides)")
+      float progress;
+    };
+  };
+};

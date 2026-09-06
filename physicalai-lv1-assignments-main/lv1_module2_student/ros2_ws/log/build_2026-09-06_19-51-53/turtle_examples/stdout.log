@@ -1,0 +1,34 @@
+running develop
+running egg_info
+creating turtle_examples.egg-info
+writing turtle_examples.egg-info/PKG-INFO
+writing dependency_links to turtle_examples.egg-info/dependency_links.txt
+writing entry points to turtle_examples.egg-info/entry_points.txt
+writing requirements to turtle_examples.egg-info/requires.txt
+writing top-level names to turtle_examples.egg-info/top_level.txt
+writing manifest file 'turtle_examples.egg-info/SOURCES.txt'
+reading manifest file 'turtle_examples.egg-info/SOURCES.txt'
+writing manifest file 'turtle_examples.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/lib/python3.10/site-packages/turtle-examples.egg-link (link to .)
+Installing ex03_distance_publisher script to /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/lib/turtle_examples
+Installing ex03_distance_subscriber script to /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/lib/turtle_examples
+Installing ex05_builtin_service_client script to /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/lib/turtle_examples
+Installing ex05_rotate_absolute_client script to /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/lib/turtle_examples
+Installing ex05_toggle_servers script to /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/lib/turtle_examples
+Installing ex06_polygon_action_server script to /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/lib/turtle_examples
+Installing ex06_waypoint_publisher script to /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/lib/turtle_examples
+Installing ex07_qos_sensor_publisher script to /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/lib/turtle_examples
+Installing ex07_qos_subscriber script to /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/lib/turtle_examples
+
+Installed /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_examples
+running symlink_data
+creating /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/share/ament_index
+creating /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/share/ament_index/resource_index
+creating /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/share/ament_index/resource_index/packages
+symbolically linking /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_examples/resource/turtle_examples -> /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/share/ament_index/resource_index/packages
+symbolically linking /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_examples/package.xml -> /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/share/turtle_examples
+creating /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/share/turtle_examples/launch
+symbolically linking /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_examples/launch/turtle_system.launch.py -> /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/share/turtle_examples/launch
+creating /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/share/turtle_examples/config
+symbolically linking /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/build/turtle_examples/config/params.yaml -> /home/sgjzz1/git/physicalai-lv1-gyujinsim/physicalai-lv1-assignments-main/lv1_module2_student/ros2_ws/install/turtle_examples/share/turtle_examples/config
